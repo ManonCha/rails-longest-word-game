@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+  <h1>Game completed</h1>
+  <p>Your result</p>
+
+  <div>
+    <p class="answer"><%= @answer %></p>
+    <p> Your score is : <%=@count_score %> points</p>
+  </div>
+
+  <%= link_to "Play again", new_path %>
+</body>
+</html>
